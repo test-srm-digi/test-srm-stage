@@ -1,6 +1,6 @@
 {
   "name": "frontend-project",
-  "version": "3.2.0",
+  "version": "3.3.0-dev",
   "description": "Test project with intentional vulnerabilities for security scanning validation",
   "license": "ISC",
   "author": "",
@@ -22,7 +22,7 @@
     "@babel/code-frame": "7.27.1",
     "lodash": "4.17.21",
     "moment": "2.29.4",
-    "axios": "1.7.4",
+    "axios": "1.7.7",
     "minimist": "1.2.8",
     "request": "2.88.0",
     "tar": "4.4.8",
@@ -107,7 +107,6 @@
     "@parcel/watcher": "2.5.1",
     "@hapi/hoek": "9.3.0",
     "@hapi/topo": "5.1.0",
-    "jsonwebtoken": "8.5.1",
     "underscore": "1.12.0",
     "xml2js": "0.4.23"
   }
